@@ -1,22 +1,152 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
- 
+    .navbar-nav .nav-link {
+        text-align: right;
+    }
+
+    .banner-text h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .btn-custom {
+        padding: 8px 30px;
+        border: 1px solid #ffffff;
+        margin-top: 40px;
+    }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-    
+    .navbar-nav .nav-link {
+        text-align: right;
+    }
+
+    .banner-text h3 {
+        font-size: 25px;
+        padding-top: 93px;
+        padding-bottom: 25px;
+    }
+
+    .banner-text h2 {
+        font-size: 38px;
+    }
+
+    .btn-custom {
+        font-size: 16px;
+        padding: 6px 44px;
+        border: 1px solid #ffffff;
+        margin-top: 60px;
+    }
+
+    /* for development part */
+    .development-part-one {
+        padding-top: 65px;
+    }
+
+    .dev-content h2 {
+        font-size: 35px;
+
+    }
+
+    .dev-content p {
+        font-size: 14px;
+        padding-bottom: 30px;
+
+    }
+
+    .dev-content2 h2 {
+        font-size: 35px;
+
+    }
+
+    .development-part-2nd .dev-explain {
+        font-size: 14px;
+        padding-bottom: 30px;
+        padding-right: 2%;
+    }
+
+    .development-part-2nd {
+        background-color: #f1f0f0;
+        padding: 40px 0 30px 0;
+        margin-top: 20px;
+    }
+
+    .development-part-2nd .explain2 {
+        font-size: 14px;
+        padding-bottom: 20px;
+        padding-right: 2%;
+    }
+
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
+    .navbar-nav .nav-link {
+        text-align: right;
+        font-size: 16px;
+    }
+
+    .banner-text h3 {
+        font-size: 25px;
+        padding-top: 80px;
+        padding-bottom: 35px;
+    }
+
+    .banner-text h2 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .btn-custom {
+        padding: 8px 40px;
+        border: 1px solid #ffffff;
+        margin-top: 60px;
+    }
+
+    /* for development part */
+    .development-part-one {
+        padding-top: 65px;
+    }
+
+    .dev-content h2 {
+        font-size: 35px;
+
+    }
+
+    .dev-content p {
+        font-size: 14px;
+        padding-bottom: 30px;
+
+    }
+
+    .dev-content2 h2 {
+        font-size: 35px;
+
+    }
+
+    .development-part-2nd .dev-explain {
+        font-size: 14px;
+        padding-bottom: 30px;
+        padding-right: 2%;
+    }
+
+    .development-part-2nd {
+        background-color: #f1f0f0;
+        padding: 40px 0 30px 0;
+        margin-top: 20px;
+    }
+
+    .development-part-2nd .explain2 {
+        font-size: 14px;
+        padding-bottom: 20px;
+        padding-right: 2%;
+    }
+
 }
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-   
-}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
