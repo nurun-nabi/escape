@@ -143,10 +143,50 @@
         padding-right: 2%;
     }
 
+    /* for feature area */
+    .feature {
+        padding: 60px 0;
+    }
+
+    .icon i {
+        font-size: 20px;
+        padding: 15px;
+        line-height: 15px;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon .male {
+        font-size: 32px;
+        padding: 19px;
+        line-height: 13px;
+    }
+
+    .icon-content h3 {
+        font-size: 20px;
+
+    }
+
+    .icon-content p {
+        font-size: 14px;
+        padding-right: 20%;
+    }
+
 }
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .feature {
+        padding: 60px 0;
+    }
+
+    .icon-content p {
+        padding-right: 15%;
+    }
+}
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {

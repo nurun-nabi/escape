@@ -107,6 +107,7 @@ p {
 .dev-content p {
     font-size: 18px;
     font-weight: normal;
+    line-height: 25px;
     color: #777777;
     padding-right: 5%;
     padding-bottom: 40px;
@@ -142,6 +143,7 @@ p {
 .development-part-2nd .dev-explain {
     font-size: 18px;
     font-weight: normal;
+    line-height: 28px;
     color: #777777;
     padding-right: 13%;
     padding-bottom: 40px;
@@ -152,10 +154,55 @@ p {
 .development-part-2nd .explain2 {
     font-size: 18px;
     font-weight: normal;
+    line-height: 28px;
     color: #777777;
     padding-bottom: 40px;
     margin-bottom: 0;
     text-transform: initial;
     text-align: justify;
     padding-right: 24%;
+}
+
+/* feature area design start */
+.feature {
+    padding: 100px 0;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    background: #222222;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon i {
+    font-size: 30px;
+    color: #ffffff;
+    padding: 20px;
+    line-height: 28px;
+}
+
+.icon .male {
+    font-size: 40px;
+    padding: 28px;
+    line-height: 18px;
+}
+
+.icon-content h3 {
+    font-size: 22px;
+    font weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+
+.icon-content p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #777777;
+    padding-right: 30%;
+}
+
+.pd {
+    padding-top: 40px;
 }
