@@ -78,6 +78,103 @@
         padding-right: 2%;
     }
 
+    /* its for feature*/
+     /* for feature area */
+     .feature {
+        padding: 60px 0;
+    }
+
+    .icon i {
+        font-size: 20px;
+        padding: 15px;
+        line-height: 15px;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon .male {
+        font-size: 32px;
+        padding: 19px;
+        line-height: 13px;
+    }
+
+    .icon-content h3 {
+        font-size: 20px;
+
+    }
+
+    .icon-content p {
+        font-size: 14px;
+        padding-right: 20%;
+    }
+    .client-area {
+        padding: 23px 0;
+    }
+    .client-head h2 {
+        font-size: 45px;
+        text-transform: capitalize;
+    }
+    .client-head h5 {
+        font-weight: normal;
+        font-size: 18px;
+        color: #777777;
+        padding-bottom: 35px;
+    }
+
+    /*  */
+    .client-image img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 3px solid #BE9E3F;
+        margin-left: 20px;
+    }
+    .client-text h3 {
+        font-size: 16px;
+        padding: 3%;
+    }
+    .client-text p {
+        font-size: 14px;
+        
+    }
+    .client-text::before {
+        border-top: 10px solid transparent;
+        border-right: 30px solid #dddddd;
+        border-bottom: 10px solid transparent;
+        top: 43%;
+        left: -3%;
+    }
+    .client-image2 img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 3px solid #BE9E3F;
+        margin-left: 20px;
+    }
+    .client-text2 h3 {
+        font-size: 16px;
+        padding: 3%;
+    }
+    .client-text2 p {
+        font-size: 14px;
+        
+    }
+    .client-text2::after {
+        border-top: 10px solid transparent;
+        border-left: 30px solid #ddd;
+        border-bottom: 10px solid transparent;
+        top: 42%;
+        left: 97%;
+    }
+    .branding{
+        padding-bottom: 45px;
+    }
+
+
+
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -173,6 +270,68 @@
     .icon-content p {
         font-size: 14px;
         padding-right: 20%;
+    }
+    .client-area {
+        padding: 23px 0;
+    }
+    .client-head h2 {
+        font-size: 45px;
+        text-transform: capitalize;
+    }
+    .client-head h5 {
+        font-weight: normal;
+        font-size: 18px;
+        color: #777777;
+        padding-bottom: 35px;
+    }
+
+    /*  */
+    .client-image img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 3px solid #BE9E3F;
+        margin-left: 20px;
+    }
+    .client-text h3 {
+        font-size: 16px;
+        padding: 3%;
+    }
+    .client-text p {
+        font-size: 14px;
+        
+    }
+    .client-text::before {
+        border-top: 10px solid transparent;
+        border-right: 30px solid #dddddd;
+        border-bottom: 10px solid transparent;
+        top: 43%;
+        left: -3%;
+    }
+    .client-image2 img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 3px solid #BE9E3F;
+        margin-left: 20px;
+    }
+    .client-text2 h3 {
+        font-size: 16px;
+        padding: 3%;
+    }
+    .client-text2 p {
+        font-size: 14px;
+        
+    }
+    .client-text2::after {
+        border-top: 10px solid transparent;
+        border-left: 30px solid #ddd;
+        border-bottom: 10px solid transparent;
+        top: 42%;
+        left: 97%;
+    }
+    .branding{
+        padding-bottom: 45px;
     }
 
 }
