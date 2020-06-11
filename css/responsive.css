@@ -79,8 +79,8 @@
     }
 
     /* its for feature*/
-     /* for feature area */
-     .feature {
+    /* for feature area */
+    .feature {
         padding: 60px 0;
     }
 
@@ -110,13 +110,16 @@
         font-size: 14px;
         padding-right: 20%;
     }
+
     .client-area {
         padding: 23px 0;
     }
+
     .client-head h2 {
         font-size: 45px;
         text-transform: capitalize;
     }
+
     .client-head h5 {
         font-weight: normal;
         font-size: 18px;
@@ -132,14 +135,17 @@
         border: 3px solid #BE9E3F;
         margin-left: 20px;
     }
+
     .client-text h3 {
         font-size: 16px;
         padding: 3%;
     }
+
     .client-text p {
         font-size: 14px;
-        
+
     }
+
     .client-text::before {
         border-top: 10px solid transparent;
         border-right: 30px solid #dddddd;
@@ -147,6 +153,7 @@
         top: 43%;
         left: -3%;
     }
+
     .client-image2 img {
         width: 180px;
         height: 180px;
@@ -154,14 +161,17 @@
         border: 3px solid #BE9E3F;
         margin-left: 20px;
     }
+
     .client-text2 h3 {
         font-size: 16px;
         padding: 3%;
     }
+
     .client-text2 p {
         font-size: 14px;
-        
+
     }
+
     .client-text2::after {
         border-top: 10px solid transparent;
         border-left: 30px solid #ddd;
@@ -169,10 +179,102 @@
         top: 42%;
         left: 97%;
     }
-    .branding{
+
+    .branding {
         padding-bottom: 45px;
     }
 
+    .social-content {
+        text-align: center;
+    }
+
+    /* its for team */
+    #team {
+        padding: 50px 0;
+    }
+
+    .team-member {
+        padding: 30px 6%;
+    }
+
+    .team-desig h5 {
+        font-size: 14px;
+        padding-top: 18px;
+    }
+
+    .sicial-media ul li i {
+        width: 15px;
+        height: 15px;
+    }
+
+    .social-link ul li {
+        font-size: 6px;
+        padding-top: 4px;
+    }
+
+    .sicial-media ul li a {
+        font-size: 15px;
+        padding: 5px;
+        color: #ffffff;
+    }
+
+    .team-describe {
+        font-size: 15px;
+    }
+
+    .team-text h2 {
+        font-size: 45px;
+    }
+
+    .team-text h5 {
+        font-size: 17px;
+    }
+
+    .team-image img {
+        width: 150px;
+        height: 150px;
+        border: 3px solid #ffffff;
+    }
+
+    /* its for footer */
+    #footer-area {
+        padding-top: 65px;
+    }
+
+    .social-content h2 {
+        font-size: 35px;
+
+    }
+
+    .social-content p {
+        font-size: 14px;
+
+    }
+
+    .social-link ul li {
+        font-size: 9px;
+        padding-top: 10px;
+    }
+
+    .custom-form input {
+        margin-bottom: 18px;
+    }
+
+    .custom-form textarea {
+        width: 100%;
+        padding: 18px;
+        height: 140px;
+        border-radius: 5px;
+    }
+
+    .copyrite {
+        font-size: 12px;
+        padding: 22px 0;
+    }
+
+    .line-design {
+        margin-top: 60px;
+    }
 
 
 }
@@ -271,13 +373,16 @@
         font-size: 14px;
         padding-right: 20%;
     }
+
     .client-area {
         padding: 23px 0;
     }
+
     .client-head h2 {
         font-size: 45px;
         text-transform: capitalize;
     }
+
     .client-head h5 {
         font-weight: normal;
         font-size: 18px;
@@ -293,14 +398,17 @@
         border: 3px solid #BE9E3F;
         margin-left: 20px;
     }
+
     .client-text h3 {
         font-size: 16px;
         padding: 3%;
     }
+
     .client-text p {
         font-size: 14px;
-        
+
     }
+
     .client-text::before {
         border-top: 10px solid transparent;
         border-right: 30px solid #dddddd;
@@ -308,6 +416,7 @@
         top: 43%;
         left: -3%;
     }
+
     .client-image2 img {
         width: 180px;
         height: 180px;
@@ -315,14 +424,17 @@
         border: 3px solid #BE9E3F;
         margin-left: 20px;
     }
+
     .client-text2 h3 {
         font-size: 16px;
         padding: 3%;
     }
+
     .client-text2 p {
         font-size: 14px;
-        
+
     }
+
     .client-text2::after {
         border-top: 10px solid transparent;
         border-left: 30px solid #ddd;
@@ -330,8 +442,92 @@
         top: 42%;
         left: 97%;
     }
-    .branding{
+
+    .branding {
         padding-bottom: 45px;
+    }
+
+    /* its for team */
+    #team {
+        padding: 60px 0;
+    }
+
+    .team-member {
+        padding: 36px 10%;
+    }
+
+    .team-desig h5 {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .sicial-media ul li i {
+        width: 20px;
+        height: 20px;
+    }
+
+    .sicial-media ul li a {
+        font-size: 17px;
+        padding: 5px;
+        color: #ffffff;
+    }
+
+    .team-describe {
+        font-size: 15px;
+    }
+
+    .team-text h2 {
+        font-size: 45px;
+    }
+
+    .team-text h5 {
+        font-size: 17px;
+    }
+
+    .team-image img {
+        width: 160px;
+        height: 160px;
+        border: 3px solid #ffffff;
+    }
+
+    /* its for footer */
+    #footer-area {
+        padding-top: 65px;
+    }
+
+    .social-content h2 {
+        font-size: 35px;
+
+    }
+
+    .social-content p {
+        font-size: 14px;
+
+    }
+
+    .social-link ul li {
+        font-size: 9px;
+        padding-top: 10px;
+    }
+
+    .custom-form input {
+        margin-bottom: 18px;
+    }
+
+    .custom-form textarea {
+        width: 100%;
+        padding: 18px;
+        height: 140px;
+        border-radius: 5px;
+    }
+
+    .copyrite {
+        font-size: 12px;
+        padding: 22px 0;
+    }
+
+    .line-design {
+        margin-top: 60px;
     }
 
 }
@@ -342,8 +538,49 @@
         padding: 60px 0;
     }
 
+    .team-member {
+        padding: 52px 15%;
+    }
+
+    .team-describe {
+        font-size: 19px;
+    }
+
     .icon-content p {
         padding-right: 15%;
+    }
+
+    .social-content h2 {
+        font-size: 50px;
+    }
+
+    .social-content p {
+        font-size: 18px;
+        color: #ffffff;
+    }
+
+    .social-link ul li {
+        font-size: 14px;
+        padding-top: 14px;
+    }
+
+    .custom-form input {
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .custom-form textarea {
+        padding: 20px;
+        height: 180px;
+    }
+
+    .line-design {
+        margin-top: 75px;
+    }
+
+    .copyrite {
+        font-size: 14px;
+        padding: 25px 0;
     }
 }
 

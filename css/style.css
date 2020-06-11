@@ -312,78 +312,151 @@ p {
 
 /* client part design end */
 /* brand part design start */
-.brand{
+.brand {
     padding: 60px 15px 60px 15px;
 }
-.branding{
+
+.branding {
     cursor: pointer
 }
+
 /* brand part design end */
 /* team part design start */
-#team{
+#team {
     background: #010101;
     padding: 100px 0;
 
 }
+
 .team-member {
-	padding: 65px 19%;
+    padding: 65px 19%;
 }
-.team-text h2{
+
+.team-text h2 {
     font-size: 60px;
     text-transform: capitalize;
     color: #ffffff;
 }
-.team-text span{
+
+.team-text span {
     font-weight: 700;
 }
-.team-text h5{
+
+.team-text h5 {
     font-weight: normal;
     font-size: 22px;
     text-transform: capitalize;
     color: #777777;
 }
-.team-text p{
+
+.team-text p {
     font-weight: normal;
     font-size: 22px;
     text-transform: capitalize;
-    color: #777777; 
+    color: #777777;
 }
-.team-image img{
+
+.team-image img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     border: 6px solid #ffffff;
 }
+
 .team-desig h5 {
-	font-weight: normal;
-	font-size: 18px;
-	color: #ffffff;
-	padding-top: 20px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 20px;
 }
-.team-desig p{
+
+.team-desig p {
     font-weight: normal;
     font-size: 16px;
     color: #ffffff;
 }
-.sicial-media ul li{
+
+.sicial-media ul li {
     padding: 0 2px;
 }
-.sicial-media ul li i{
+
+.sicial-media ul li i {
     width: 25px;
     height: 25px;
 }
-.sicial-media ul li a{
+
+.sicial-media ul li a {
     font-size: 25px;
     padding: 6px;
     border-radius: 50%;
     border: 2px solid #ffffff;
     color: #ffffff;
 }
+
 .team-describe {
-	font-weight: normal;
-	text-transform: initial;
-	font-size: 20px;
-	color: #ffffff;
-	padding: 0 17%;
-	text-align: center;
+    font-weight: normal;
+    text-transform: initial;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 17%;
+    text-align: center;
+}
+
+/* footer part design start */
+/* footer part design end */
+#footer-area {
+    background: #7690c5;
+    padding-top: 100px;
+}
+
+.social-content h2 {
+    font-weight: normal;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.social-content span {
+    font-weight: 700;
+}
+
+.social-content p {
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.social-link ul li {
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 25px;
+}
+
+/* its for form */
+.custom-form input {
+    padding: 25px;
+}
+
+.custom-form input {
+    margin-bottom: 25px;
+}
+
+.custom-form textarea {
+    width: 100%;
+    padding: 25px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.line-design {
+    border-top: 0.5px solid #ffffff;
+    margin-top: 100px;
+}
+
+.copyrite {
+    font-weight: normal;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 35px 0;
 }
